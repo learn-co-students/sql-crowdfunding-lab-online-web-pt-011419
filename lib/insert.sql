@@ -1,4 +1,5 @@
-INSERT INTO users VALUES ("Bob", 20),
+INSERT INTO users (name, age) VALUES 
+("Bob", 20),
 ("Dylan", 29),
 ("Krystal", 30),
 ("Connor", 26),
@@ -19,7 +20,8 @@ INSERT INTO users VALUES ("Bob", 20),
 ("Sergio", 47),
 ("Chris", 45);
 
-INSERT INTO projects VALUES ("project_a", "technology", 50000, 1/1/2019, 1/31/2019),
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES 
+("project_a", "technology", 50000, 1/1/2019, 1/31/2019),
 ("project_b", "automotive", 100000, 2/1/2019, 2/31/2019),
 ("project_c", "sports", 20000, 3/1/2019, 3/31/2019),
 ("project_d", "arts", 10000, 4/1/2019, 4/31/2019),
@@ -30,7 +32,8 @@ INSERT INTO projects VALUES ("project_a", "technology", 50000, 1/1/2019, 1/31/20
 ("project_i", "books", 800000, 9/1/2019, 9/31/2019),
 ("project_j", "finance", 23000, 10/1/2019, 10/31/2019),
 
-INSERT INTO pledges VALUES (250, 1, 5),
+INSERT INTO pledges (amount, user_id, project_id) VALUES 
+(250, 1, 5),
 (500, 2, 8),
 (1000, 5, 10),
 (2000, 8, 2),
