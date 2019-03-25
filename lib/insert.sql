@@ -1,62 +1,62 @@
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_a", "technology", 50000, 1/1/2019, 1/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_b", "automotive", 100000, 2/1/2019, 2/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_c", "sports", 20000, 3/1/2019, 3/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_d", "arts", 10000, 4/1/2019, 4/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_e", "health_fitness", 1000, 5/1/2019, 5/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_f", "film", 5700, 6/1/2019, 6/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_g", "food", 100, 7/1/2019, 7/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_h", "music", 25000000, 8/1/2019, 8/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_i", "books", 800000, 9/1/2019, 9/31/2019)
-INSERT INTO project (title, category, funding_goal, start_date, end_date) VALUES ("project_j", "finance", 23000, 10/1/2019, 10/31/2019)
+INSERT INTO project VALUES ("project_a", "technology", 50000, 1/1/2019, 1/31/2019);
+INSERT INTO project VALUES ("project_b", "automotive", 100000, 2/1/2019, 2/31/2019);
+INSERT INTO project VALUES ("project_c", "sports", 20000, 3/1/2019, 3/31/2019);
+INSERT INTO project VALUES ("project_d", "arts", 10000, 4/1/2019, 4/31/2019);
+INSERT INTO project VALUES ("project_e", "health_fitness", 1000, 5/1/2019, 5/31/2019);
+INSERT INTO project VALUES ("project_f", "film", 5700, 6/1/2019, 6/31/2019);
+INSERT INTO project VALUES ("project_g", "food", 100, 7/1/2019, 7/31/2019);
+INSERT INTO project VALUES ("project_h", "music", 25000000, 8/1/2019, 8/31/2019);
+INSERT INTO project VALUES ("project_i", "books", 800000, 9/1/2019, 9/31/2019);
+INSERT INTO project VALUES ("project_j", "finance", 23000, 10/1/2019, 10/31/2019);
 
-INSERT INTO user (name, age) VALUES ("Bob", 20)
-INSERT INTO user (name, age) VALUES ("Dylan", 29)
-INSERT INTO user (name, age) VALUES ("Krystal", 30)
-INSERT INTO user (name, age) VALUES ("Connor", 26)
-INSERT INTO user (name, age) VALUES ("Eliza", 22)
-INSERT INTO user (name, age) VALUES ("Matthew", 23)
-INSERT INTO user (name, age) VALUES ("John", 76)
-INSERT INTO user (name, age) VALUES ("Paul", 67)
-INSERT INTO user (name, age) VALUES ("Ringo", 81)
-INSERT INTO user (name, age) VALUES ("George", 56)
-INSERT INTO user (name, age) VALUES ("Jack", 35)
-INSERT INTO user (name, age) VALUES ("Magnus", 52)
-INSERT INTO user (name, age) VALUES ("Juliette", 42)
-INSERT INTO user (name, age) VALUES ("Alin", 32)
-INSERT INTO user (name, age) VALUES ("Aisling", 21)
-INSERT INTO user (name, age) VALUES ("Phela", 38)
-INSERT INTO user (name, age) VALUES ("Zaz", 23)
-INSERT INTO user (name, age) VALUES ("Tom", 41)
-INSERT INTO user (name, age) VALUES ("Sergio", 47)
-INSERT INTO user (name, age) VALUES ("Chris", 45)
+INSERT INTO user VALUES ("Bob", 20);
+INSERT INTO user VALUES ("Dylan", 29);
+INSERT INTO user VALUES ("Krystal", 30);
+INSERT INTO user VALUES ("Connor", 26);
+INSERT INTO user VALUES ("Eliza", 22);
+INSERT INTO user VALUES ("Matthew", 23);
+INSERT INTO user VALUES ("John", 76);
+INSERT INTO user VALUES ("Paul", 67);
+INSERT INTO user VALUES ("Ringo", 81);
+INSERT INTO user VALUES ("George", 56);
+INSERT INTO user VALUES ("Jack", 35);
+INSERT INTO user VALUES ("Magnus", 52);
+INSERT INTO user VALUES ("Juliette", 42);
+INSERT INTO user VALUES ("Alin", 32);
+INSERT INTO user VALUES ("Aisling", 21);
+INSERT INTO user VALUES ("Phela", 38);
+INSERT INTO user VALUES ("Zaz", 23);
+INSERT INTO user VALUES ("Tom", 41);
+INSERT INTO user VALUES ("Sergio", 47);
+INSERT INTO user VALUES ("Chris", 45);
 
-INSERT INTO amount (amount, user_id, project_id) VALUES (250, 1, 5)
-INSERT INTO amount (amount, user_id, project_id) VALUES (500, 2, 8)
-INSERT INTO amount (amount, user_id, project_id) VALUES (1000, 5, 10)
-INSERT INTO amount (amount, user_id, project_id) VALUES (2000, 8, 2)
-INSERT INTO amount (amount, user_id, project_id) VALUES (5000000, 18, 5)
-INSERT INTO amount (amount, user_id, project_id) VALUES (25, 3, 4)
-INSERT INTO amount (amount, user_id, project_id) VALUES (999999, 15, 6)
-INSERT INTO amount (amount, user_id, project_id) VALUES (987382, 13, 7)
-INSERT INTO amount (amount, user_id, project_id) VALUES (73290, 12, 4)
-INSERT INTO amount (amount, user_id, project_id) VALUES (9174, 11, 3)
-INSERT INTO amount (amount, user_id, project_id) VALUES (8319, 19, 9)
-INSERT INTO amount (amount, user_id, project_id) VALUES (91283, 9, 1)
-INSERT INTO amount (amount, user_id, project_id) VALUES (873102, 6, 2)
-INSERT INTO amount (amount, user_id, project_id) VALUES (981723, 3, 1)
-INSERT INTO amount (amount, user_id, project_id) VALUES (16, 14, 8)
-INSERT INTO amount (amount, user_id, project_id) VALUES (6382, 3, 3)
-INSERT INTO amount (amount, user_id, project_id) VALUES (3192, 6, 9)
-INSERT INTO amount (amount, user_id, project_id) VALUES (90, 20, 7)
-INSERT INTO amount (amount, user_id, project_id) VALUES (928, 6, 9)
-INSERT INTO amount (amount, user_id, project_id) VALUES (2937, 14, 4)
-INSERT INTO amount (amount, user_id, project_id) VALUES (9823, 7, 8)
-INSERT INTO amount (amount, user_id, project_id) VALUES (98, 2, 4)
-INSERT INTO amount (amount, user_id, project_id) VALUES (236, 18, 8)
-INSERT INTO amount (amount, user_id, project_id) VALUES (689643, 2, 7)
-INSERT INTO amount (amount, user_id, project_id) VALUES (15, 18, 2)
-INSERT INTO amount (amount, user_id, project_id) VALUES (20, 19, 1)
-INSERT INTO amount (amount, user_id, project_id) VALUES (5, 20, 9)
-INSERT INTO amount (amount, user_id, project_id) VALUES (10, 19, 5)
-INSERT INTO amount (amount, user_id, project_id) VALUES (35, 17, 3)
-INSERT INTO amount (amount, user_id, project_id) VALUES (45, 10, 6)
+INSERT INTO amount VALUES (250, 1, 5);
+INSERT INTO amount VALUES (500, 2, 8);
+INSERT INTO amount VALUES (1000, 5, 10);
+INSERT INTO amount VALUES (2000, 8, 2);
+INSERT INTO amount VALUES (5000000, 18, 5);
+INSERT INTO amount VALUES (25, 3, 4);
+INSERT INTO amount VALUES (999999, 15, 6);
+INSERT INTO amount VALUES (987382, 13, 7);
+INSERT INTO amount VALUES (73290, 12, 4);
+INSERT INTO amount VALUES (9174, 11, 3);
+INSERT INTO amount VALUES (8319, 19, 9);
+INSERT INTO amount VALUES (91283, 9, 1);
+INSERT INTO amount VALUES (873102, 6, 2);
+INSERT INTO amount VALUES (981723, 3, 1);
+INSERT INTO amount VALUES (16, 14, 8);
+INSERT INTO amount VALUES (6382, 3, 3);
+INSERT INTO amount VALUES (3192, 6, 9);
+INSERT INTO amount VALUES (90, 20, 7);
+INSERT INTO amount VALUES (928, 6, 9);
+INSERT INTO amount VALUES (2937, 14, 4);
+INSERT INTO amount VALUES (9823, 7, 8);
+INSERT INTO amount VALUES (98, 2, 4);
+INSERT INTO amount VALUES (236, 18, 8);
+INSERT INTO amount VALUES (689643, 2, 7);
+INSERT INTO amount VALUES (15, 18, 2);
+INSERT INTO amount VALUES (20, 19, 1);
+INSERT INTO amount VALUES (5, 20, 9);
+INSERT INTO amount VALUES (10, 19, 5);
+INSERT INTO amount VALUES (35, 17, 3);
+INSERT INTO amount VALUES (45, 10, 6);
