@@ -1,62 +1,62 @@
-INSERT INTO project VALUES ("project_a", "technology", 50000, 1/1/2019, 1/31/2019);
-INSERT INTO project VALUES ("project_b", "automotive", 100000, 2/1/2019, 2/31/2019);
-INSERT INTO project VALUES ("project_c", "sports", 20000, 3/1/2019, 3/31/2019);
-INSERT INTO project VALUES ("project_d", "arts", 10000, 4/1/2019, 4/31/2019);
-INSERT INTO project VALUES ("project_e", "health_fitness", 1000, 5/1/2019, 5/31/2019);
-INSERT INTO project VALUES ("project_f", "film", 5700, 6/1/2019, 6/31/2019);
-INSERT INTO project VALUES ("project_g", "food", 100, 7/1/2019, 7/31/2019);
-INSERT INTO project VALUES ("project_h", "music", 25000000, 8/1/2019, 8/31/2019);
-INSERT INTO project VALUES ("project_i", "books", 800000, 9/1/2019, 9/31/2019);
-INSERT INTO project VALUES ("project_j", "finance", 23000, 10/1/2019, 10/31/2019);
+INSERT INTO users VALUES ("Bob", 20),
+("Dylan", 29),
+("Krystal", 30),
+("Connor", 26),
+("Eliza", 22),
+("Matthew", 23),
+("John", 76),
+("Paul", 67),
+("Ringo", 81),
+("George", 56),
+("Jack", 35),
+("Magnus", 52),
+("Juliette", 42),
+("Alin", 32),
+("Aisling", 21),
+("Phela", 38),
+("Zaz", 23),
+("Tom", 41),
+("Sergio", 47),
+("Chris", 45);
 
-INSERT INTO user VALUES ("Bob", 20);
-INSERT INTO user VALUES ("Dylan", 29);
-INSERT INTO user VALUES ("Krystal", 30);
-INSERT INTO user VALUES ("Connor", 26);
-INSERT INTO user VALUES ("Eliza", 22);
-INSERT INTO user VALUES ("Matthew", 23);
-INSERT INTO user VALUES ("John", 76);
-INSERT INTO user VALUES ("Paul", 67);
-INSERT INTO user VALUES ("Ringo", 81);
-INSERT INTO user VALUES ("George", 56);
-INSERT INTO user VALUES ("Jack", 35);
-INSERT INTO user VALUES ("Magnus", 52);
-INSERT INTO user VALUES ("Juliette", 42);
-INSERT INTO user VALUES ("Alin", 32);
-INSERT INTO user VALUES ("Aisling", 21);
-INSERT INTO user VALUES ("Phela", 38);
-INSERT INTO user VALUES ("Zaz", 23);
-INSERT INTO user VALUES ("Tom", 41);
-INSERT INTO user VALUES ("Sergio", 47);
-INSERT INTO user VALUES ("Chris", 45);
+INSERT INTO projects VALUES ("project_a", "technology", 50000, 1/1/2019, 1/31/2019),
+("project_b", "automotive", 100000, 2/1/2019, 2/31/2019),
+("project_c", "sports", 20000, 3/1/2019, 3/31/2019),
+("project_d", "arts", 10000, 4/1/2019, 4/31/2019),
+("project_e", "health_fitness", 1000, 5/1/2019, 5/31/2019),
+("project_f", "film", 5700, 6/1/2019, 6/31/2019),
+("project_g", "food", 100, 7/1/2019, 7/31/2019),
+("project_h", "music", 25000000, 8/1/2019, 8/31/2019),
+("project_i", "books", 800000, 9/1/2019, 9/31/2019),
+("project_j", "finance", 23000, 10/1/2019, 10/31/2019),
 
-INSERT INTO amount VALUES (250, 1, 5);
-INSERT INTO amount VALUES (500, 2, 8);
-INSERT INTO amount VALUES (1000, 5, 10);
-INSERT INTO amount VALUES (2000, 8, 2);
-INSERT INTO amount VALUES (5000000, 18, 5);
-INSERT INTO amount VALUES (25, 3, 4);
-INSERT INTO amount VALUES (999999, 15, 6);
-INSERT INTO amount VALUES (987382, 13, 7);
-INSERT INTO amount VALUES (73290, 12, 4);
-INSERT INTO amount VALUES (9174, 11, 3);
-INSERT INTO amount VALUES (8319, 19, 9);
-INSERT INTO amount VALUES (91283, 9, 1);
-INSERT INTO amount VALUES (873102, 6, 2);
-INSERT INTO amount VALUES (981723, 3, 1);
-INSERT INTO amount VALUES (16, 14, 8);
-INSERT INTO amount VALUES (6382, 3, 3);
-INSERT INTO amount VALUES (3192, 6, 9);
-INSERT INTO amount VALUES (90, 20, 7);
-INSERT INTO amount VALUES (928, 6, 9);
-INSERT INTO amount VALUES (2937, 14, 4);
-INSERT INTO amount VALUES (9823, 7, 8);
-INSERT INTO amount VALUES (98, 2, 4);
-INSERT INTO amount VALUES (236, 18, 8);
-INSERT INTO amount VALUES (689643, 2, 7);
-INSERT INTO amount VALUES (15, 18, 2);
-INSERT INTO amount VALUES (20, 19, 1);
-INSERT INTO amount VALUES (5, 20, 9);
-INSERT INTO amount VALUES (10, 19, 5);
-INSERT INTO amount VALUES (35, 17, 3);
-INSERT INTO amount VALUES (45, 10, 6);
+INSERT INTO pledges VALUES (250, 1, 5),
+(500, 2, 8),
+(1000, 5, 10),
+(2000, 8, 2),
+(5000000, 18, 5),
+(25, 3, 4),
+(999999, 15, 6),
+(987382, 13, 7),
+(73290, 12, 4),
+(9174, 11, 3),
+(8319, 19, 9),
+(91283, 9, 1),
+(873102, 6, 2),
+(981723, 3, 1),
+(16, 14, 8),
+(6382, 3, 3),
+(3192, 6, 9),
+(90, 20, 7),
+(928, 6, 9),
+(2937, 14, 4),
+(9823, 7, 8),
+(98, 2, 4),
+(236, 18, 8),
+(689643, 2, 7),
+(15, 18, 2),
+(20, 19, 1),
+(5, 20, 9),
+(10, 19, 5),
+(35, 17, 3),
+(45, 10, 6);
